@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Upload with Print Options</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="S_styles.css">
+</head>
+<body>
+  <!-- Background Video -->
+  <video autoplay muted loop id="background-video">
+    <source src="background.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="container">
+    <header>
+      <h1>Upload Your Documents for Printing</h1>
+    </header>
+    
+    <div class="upload-section">
+      <!-- Upload Form -->
+      <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" id="fileUpload" name="fileUpload" multiple>
+      </form>
+      <!-- Upload Button -->
+      <button id="uploadButton">Upload Files</button>
+
+      <!-- Uploaded Files Container -->
+      <div class="file-container">
+        <h3>Uploaded Files</h3>
+        <div id="fileList" class="file-list"></div>
+      </div>
+    </div>
+    
+    <footer>
+      <p>Powered by Printing Store App</p>
+    </footer>
+  </div>
+
+  <!-- File Preview Modal -->
+  <div id="previewModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <div id="previewContent"></div>
+    </div>
+  </div>
+
+  <script src="S_script.js"></script>
+</body>
+</html>
