@@ -4,7 +4,9 @@ Welcome to **SmartPrint System**, the ultimate solution to eliminate long queues
 
 ## Watch the Demo 📹
 
-Check out how **SmartPrint System** works in action with our **4K animation** (converted to GIF for easy viewing!):
+Check out how **SmartPrint System** works in action with our **4K animation** (converted to GIF for easy viewing!):  
+Your site is live at https://naitikpawar22.github.io/Printing-management-system/
+
 
 ![SmartPrint Demo](assets/smartprint-demo.gif)
 
